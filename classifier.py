@@ -27,8 +27,6 @@ mse = mean_squared_error(y, prediction)
 print("1 neuron 1 layer Mean squared error", mse)
 print("\n")
 
-
-
 classifier2 = MLPClassifier(solver="lbfgs", hidden_layer_sizes=(3),
                             random_state=chosen_state, max_iter=1000)  # 3 neurons to train the dataset
 classifier2.fit(X, y)
@@ -45,8 +43,6 @@ print("3 neurons 1 layer Accuracy score:", acc)
 mse = mean_squared_error(y, prediction)
 print("3 neurons 1 layer Mean squared error", mse)
 print("\n")
-
-
 
 classifier3 = MLPClassifier(solver="lbfgs", hidden_layer_sizes=(10, 3),
                             random_state=chosen_state, max_iter=1000)  # 3 neurons to train the dataset
