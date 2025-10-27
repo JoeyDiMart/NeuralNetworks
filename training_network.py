@@ -60,8 +60,6 @@ def notX2():
         print(f"Input X2={X[i][1]} → Output={out[0]:.4f}")
 
 
-
-
 def main():
     notX2()
 
